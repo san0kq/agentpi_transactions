@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     min_price: int
 
     tg_token: SecretStr
-    chat_id: str
+    chat_ids: str
 
     _bot: Bot = None
     _dp: Dispatcher = None
